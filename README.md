@@ -1,32 +1,33 @@
 # Repaso-CSS-JavaScript
+
 Esto es el repaso para 2025 en mi enfoque en el frontend
+
 ### Objetivos de para este repo:
-<ul>
-<li>Consolidar conocimientos de FrontEnd<li>
-- CSS
+
+- Consolidar conocimientos de FrontEnd
+  - CSS
     - Flexbox
     - Grid
     - Responsive Design
     - Animaciones
     - Transiciones
     - Media Queries
-- HTML
+  - HTML
     - SEO
     - Accessibility
-- JavaScript
+  - JavaScript
     - DOM
     - Eventos
     - AJAX
     - APIs
     - Fetch API
     - Async/Await
-- JavaScript Moderno
+  - JavaScript Moderno
     - ES6
--Framworks frontend
-    -Vie.js sera el elejido
-        - Vue Router
-        - Vuex
-        - Vue CLI
-        - Nuxt.js
-        - Integracion con Astro
-</ul>
+  - Frameworks frontend
+    - Vue.js será el elegido
+      - Vue Router
+      - Vuex
+      - Vue CLI
+      - Nuxt.js
+      - Integración con Astro
