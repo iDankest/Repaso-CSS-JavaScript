@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,17 +7,21 @@
   </head>
   <body>
     <div id="app">Hola {{ firstName}} {{lastName}}</div>
+    <!--importamos la libreria de Vue.js CDN-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <script>
       const App = Vue.createApp({
+        //Todas las aplicaciones de Vue.js se crean con Vue.createApp
         data() {
+          // data es una función que devuelve un objeto
           return {
             firstName: 'Kilian',
             lastName: 'Sánchez',
           };
         },
       });
-      App.mount('#app');
+      App.mount('#app'); //montamos la app en el div con id app Un elemento del HTML
     </script>
   </body>
 </html>
