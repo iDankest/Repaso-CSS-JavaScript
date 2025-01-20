@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Relecloud Galaxy Tours</title>
     <link rel="stylesheet" href="./assets/styles.css" />
     <!-- TODO: Import Vue.js core library -->
 
-</head>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
 
-<body>
+  <body>
     <div class="nav-bar"></div>
     <h1>Relecloud Galaxy Tours</h1>
 
     <!-- TODO: Add information display -->
+    <div id="app">
+      <h2>{{productName}}</h2>
+      <div>{{productDescription}}</div>
+    </div>
 
-    
     <!-- TODO: Import Vue app -->
-
-</body>
-
+    <script src="../start/index.js" defer></script>
+  </body>
 </html>
