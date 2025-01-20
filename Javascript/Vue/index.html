@@ -6,10 +6,18 @@
     <title>Primera APP con Vie.js</title>
   </head>
   <body>
-    <div id="app">{{ message }}</div>
+    <div id="app">Hola {{ firstName}} {{lastName}}</div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script>
-      const { createApp } = Vue;
+      const App = Vue.createApp({
+        data() {
+          return {
+            firstName: 'Kilian',
+            lastName: 'Sánchez',
+          };
+        },
+      });
+      App.mount('#app');
     </script>
   </body>
 </html>
